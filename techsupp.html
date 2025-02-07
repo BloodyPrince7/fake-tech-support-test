@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Support - Critical Alert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8d7da; text-align: center; }
+        .alert-container { background: white; padding: 30px; width: 400px; margin: 50px auto; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); border-radius: 8px; border: 2px solid red; }
+        .alert-container h2 { color: red; }
+        p { color: black; font-size: 16px; }
+        .support-number { font-size: 20px; font-weight: bold; color: red; }
+        button { background: #dc3545; color: white; border: none; padding: 12px; width: 100%; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #a71d2a; }
+        .logo { width: 100px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="alert-container">
+        <img src="warning.png" alt="Warning Icon" class="logo">
+        <h2><i class="fas fa-exclamation-circle"></i> Critical Security Alert!</h2>
+        <p>Your computer has been blocked due to suspicious activity.</p>
+        <p>Contact our Microsoft-certified support team immediately to resolve this issue.</p>
+        <p class="support-number">Call: +1-800-123-4567</p>
+        <button onclick="window.location.href='tel:+18001234567'">Call Now</button>
+    </div>
+</body>
+</html>
+
